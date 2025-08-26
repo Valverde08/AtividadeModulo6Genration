@@ -1,5 +1,15 @@
 var lerValor = require('readline-sync')
 
+console.log(`
+    Código do Cargo || Cargo Preço || Reajuste \n
+    1               || Gerente      || 10% \n
+    2               || Vendedor     ||  7% \n
+    3               || Supervisor   ||  9% \n            
+    4               || Motorista    ||  6% \n
+    5               || Estoquista   ||  5%\n
+    6               || Técnico TI   ||  8% \n
+    `);
+
 let nomeFuncionario = lerValor.question("Qual o seu nome ? ")
 
 let salario = lerValor.questionFloat("Qual o seu salário atual ? ")

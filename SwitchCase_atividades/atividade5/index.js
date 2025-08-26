@@ -1,8 +1,23 @@
 var lerValor = require('readline-sync')
 
+console.log(`
+    Código do Produto Produto Preço Unitário \n
+    1 Cachorro Quente R$ 10.00 \n
+    2 X-Salada R$ 15.00 \n
+    3 X-Bacon R$ 18.00 \n
+    4 Bauru R$ 12.00 \n
+    5 Refrigerante R$ 8.00 \n
+    6 Suco de laranja R$ 13.00 \n
 
 
-let codigoProduto = lerValor.questionInt("Digite o código do item e obtenha informações sobre:");
+    `);
+
+
+
+let codigoProduto = lerValor.questionInt("Digite o código do item e para efetuar a compra:");
+
+
+
 
 let quantidade  = lerValor.questionInt("Qual a quantidade ?")
 
